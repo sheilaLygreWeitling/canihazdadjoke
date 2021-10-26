@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: "Zen Kurenaido", sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+  background-color: whitesmoke;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  border: 3px solid aquamarine;
+  background-image: url(../images/meme.jpg);
+  background-size: cover;
+  height: 100vh;
+  padding: 2em;
+  margin: 2em;
+}
+main article {
+  padding: 2em;
+}
+main article p {
+  display: flex;
+  justify-content: center;
+}
+main button {
+  display: flex;
+  justify-content: center;
+  font-family: "Zen Kurenaido", sans-serif;
+  font-size: 20px;
+  padding: 1em 2em;
+  border-radius: 30px;
+}
