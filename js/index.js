@@ -3,7 +3,7 @@ fetch("https://icanhazdadjoke.com/", {
         Accept: "application/json"
     }
 })
-    .then(response => response.json()) //response
+    .then(response => response.json())
     .then(data => {
         const jokearea = document.querySelector(".jokeArea")
         jokearea.textContent = data.joke;
