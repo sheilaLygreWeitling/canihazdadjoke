@@ -37,6 +37,9 @@ main {
 	margin: 2em;
 	article {
 		padding: 2em;
+		@include flex(center);
+		flex-direction: column;
+		background-color: rgba(194, 194, 194, 0.482);
 	}
 	article p {
 		@include flex(center);

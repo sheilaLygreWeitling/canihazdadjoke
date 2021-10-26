@@ -34,6 +34,10 @@ main {
 }
 main article {
   padding: 2em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(194, 194, 194, 0.482);
 }
 main article p {
   display: flex;
