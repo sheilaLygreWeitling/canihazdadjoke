@@ -1,4 +1,4 @@
-/* document.querySelector(".article-button").addEventListener("click", function () {
+document.querySelector(".article-button").addEventListener("click", function () {
     fetch("https://icanhazdadjoke.com/", {
         headers: {
             Accept: "application/json"
@@ -10,4 +10,3 @@
             jokearea.textContent = data.joke;
         });
 });
- */

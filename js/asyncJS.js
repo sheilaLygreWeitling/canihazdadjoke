@@ -1,5 +1,6 @@
-document.querySelector(".article-button").addEventListener("click", function () {
-    async function myFetch() {
+/*  document.querySelector(".article-button").addEventListener("click", function () {
+    UDKOMMENTER ----> async function myFetch() {
+    const myFetch = async () => {
         let response = await fetch("https://icanhazdadjoke.com/", {
             headers: {
                 Accept: "application/json"
@@ -14,3 +15,4 @@ document.querySelector(".article-button").addEventListener("click", function () 
         jokearea.textContent = data.joke;
     });
 });
+*/
